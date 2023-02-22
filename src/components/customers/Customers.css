@@ -1,0 +1,25 @@
+.customers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.customer {
+    background-color: darksalmon;
+    margin: 0.5rem;
+    border: 2px dotted fuchsia;
+    padding: 0.5rem;
+    color: white;
+}
+
+.customer__footer {
+    margin: 1rem 0 0.25rem 0;
+    font-style: oblique;
+}
+
+.customer__header {
+    font-size: larger;
+    font-weight: 700;
+    line-height: 3rem;
+}
